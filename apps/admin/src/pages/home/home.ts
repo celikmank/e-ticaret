@@ -1,5 +1,6 @@
-import { Component} from '@angular/core';
+import { Component, computed } from '@angular/core';
 import Blank from '../../components/blank';
+import { BreadcrumbModel } from '../../models/Breadcrumb.model';
 
 @Component({
   selector: 'app-home',
@@ -8,5 +9,5 @@ import Blank from '../../components/blank';
   styleUrls: ['./home.css'],
 })
 export class Home {
-      
+  readonly breadcrumbs = computed<BreadcrumbModel[]>(() => []);
 }

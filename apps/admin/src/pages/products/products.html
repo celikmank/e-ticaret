@@ -1,4 +1,4 @@
-<app-blank pageTitle="Ürünler" [breadcrumbs]="[{title: 'Ürünler', url: '/products', icon: 'deployed_code'}]">
+<app-blank pageTitle="Ürünler" [breadcrumbs]="breadcrumbs()">
 </app-blank>
 
 <div class="card mt-3">
@@ -31,7 +31,7 @@
     </flexi-grid-column>
 
     <ng-template flexiGridColumnCommandTemplate let-item>
-      <flexi-button btnIcon="edit" btnColor="info" title="Güncelle" flexiTooltip="" btnSize="small"></flexi-button>
+      <flexi-button [routerLink]="['/products','edit', item.id]" btnIcon="edit" btnColor="info" title="Güncelle" flexiTooltip="" btnSize="small"></flexi-button>
       <flexi-button (click)="delete(item.id)" btnIcon="delete" btnColor="danger" title="Sil" flexiTooltip="" btnSize="small"></flexi-button>
     </ng-template>
   </flexi-grid>

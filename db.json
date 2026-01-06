@@ -1,45 +1,12 @@
 {
   "products": [
     {
-      "id": "1",
-      "name": "Kablosuz Oyuncu Mouse",
-      "price": 1250,
-      "description": "Yüksek hassasiyetli, RGB aydınlatmalı oyuncu mouse.",
-      "categoryId": "1",
-      "categoryName": "Elektronik",
-      "imageUrl": "https://picsum.photos/200/300?random=1",
-      "stock": 45,
-      "rating": 4.8
-    },
-    {
-      "id": "2",
-      "name": "Mekanik Klavye (Blue Switch)",
-      "price": 2100.5,
-      "description": "Blue switch, TVK düzeni mekanik klavye.",
-      "categoryId": "1",
-      "categoryName": "Elektronik",
-      "imageUrl": "https://picsum.photos/200/300?random=2",
-      "stock": 12,
-      "rating": 4.5
-    },
-    {
-      "id": "3",
-      "name": "Pamuklu Slim Fit Gömlek",
-      "price": 450,
-      "description": "%100 pamuk, slim fit gömlek.",
-      "categoryId": "2",
-      "categoryName": "Giyim",
-      "imageUrl": "https://picsum.photos/200/300?random=3",
-      "stock": 100,
-      "rating": 4.2
-    },
-    {
       "id": "4",
       "name": "Akıllı Saat v2 Pro",
       "price": 3800,
       "description": "Nabız ölçer, GPS ve suya dayanıklı akıllı saat.",
-      "categoryId": "1",
-      "categoryName": "Elektronik",
+      "categoryId": "2",
+      "categoryName": "Giyim",
       "imageUrl": "https://picsum.photos/200/300?random=4",
       "stock": 5,
       "rating": 4.9
@@ -54,20 +21,54 @@
       "imageUrl": "https://picsum.photos/200/300?random=5",
       "stock": 0,
       "rating": 3.8
+    }
+  ],
+  "categories": [
+    {
+      "id": "2",
+      "name": "Giyim"
     },
     {
-      "id": "8c3e",
-      "productName": "Telefon",
-      "imageUrl": "",
-      "unit": "100",
-      "stock": ""
+      "id": "3",
+      "name": "Aksesuar"
+    }
+  ],
+  "users": [
+    {
+      "id": "2",
+      "firstName": "Elif",
+      "lastName": "Demir",
+      "fullName": "Elif Demir",
+      "username": "elif.demir",
+        "email": "elif.demir@example.com",
+        "password": "admin123",
+      "isAdmin": true,
+      "createdAt": "2024-06-12T08:15:00Z",
+      "avatarUrl": "https://i.pravatar.cc/150?img=2"
     },
     {
-      "id": "22f0",
-      "productName": "",
-      "imageUrl": "",
-      "unit": "2222222222222",
-      "stock": ""
+      "id": "4",
+      "firstName": "Ayşe",
+      "lastName": "Arslan",
+      "fullName": "Ayşe Arslan",
+      "username": "ayse.arslan",
+        "email": "ayse.arslan@example.com",
+        "password": "ayse123",
+      "isAdmin": false,
+      "createdAt": "2023-11-01T09:00:00Z",
+      "avatarUrl": "https://i.pravatar.cc/150?img=4"
+    },
+    {
+      "id": "5",
+      "firstName": "Can",
+      "lastName": "Öztürk",
+      "fullName": "Can Öztürk",
+      "username": "can.ozturk",
+        "email": "can.ozturk@example.com",
+        "password": "can123",
+      "isAdmin": false,
+      "createdAt": "2024-01-18T12:05:00Z",
+      "avatarUrl": "https://i.pravatar.cc/150?img=5"
     }
   ]
 }

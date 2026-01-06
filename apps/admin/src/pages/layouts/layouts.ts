@@ -1,10 +1,11 @@
-import { Component, computed, signal } from '@angular/core';
+import { Component, computed, signal, inject } from '@angular/core';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { Breadcrump } from './breadcrumb/breadcrump';
 import { navigations } from '../../models/Navigation.model';
 import { NavPipe } from '../../pipes/nav-pipe';
 import { FormsModule } from '@angular/forms';
 import { DatePipe } from '@angular/common';
+import { AuthService } from '../../services/auth.service';
 
 
 @Component({
@@ -23,6 +24,9 @@ import { DatePipe } from '@angular/common';
   styleUrls: ['./layouts.css'],
 })
 export class layouts {
+  readonly #auth = inject(AuthService);
+  readonly currentUser = this.#auth.currentUser;
+  
   readonly navigations = computed(() => navigations);
   readonly time = signal<Date | string>('');
   readonly search = signal<string>('');
@@ -31,5 +35,9 @@ export class layouts {
     setInterval(() => {
       this.time.set(new Date());
     }, 1000);
+  }
+  
+  logout(): void {
+    this.#auth.logout();
   }
 } 

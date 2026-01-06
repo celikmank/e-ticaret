@@ -1,47 +1,66 @@
-<app-blank pageTitle="Ürünler" [breadcrumbs]="[
-    {title: 'Ürünler', url: '/products', icon: 'deployed_code'},
-    {title: 'Yeni Ürün Ekle', url: '/products/create', icon: 'add_circle'}
-    ]">
+<app-blank [pageTitle]="cardTitle()" [breadcrumbs]="breadcrumbs()">
 </app-blank>
 
 <div class="row">
     <div class="col-md-4 col-12">
-        <div class="card">
-            <div class="card-header">
-                <h4>Ürün Ekle</h4>
+        <div class="card shadow-sm" style="overflow: visible;"> <div class="card-header">
+                <h4 class="card-title">{{cardTitle()}}</h4>
             </div>
-            <div class="card-body">
+            <div class="card-body" style="overflow: visible;">
                 <form #form="ngForm" autocomplete="off" (ngSubmit)="save(form)">
-                    <div class="form-group">
-                        <label for="productName">Ürün Adı</label>
-                        <input type="text" id="productName" class="form-control" placeholder="Ürün Adını Giriniz" ngModel name="productName">
+                    
+                    <div class="form-group mb-3" style="position: relative; z-index: 10;">
+                        <label for="categoryId">Kategori</label>
+                        <flexi-select 
+                            id="categoryId"
+                            [data]="categories()" 
+                            label="name" 
+                            value="id" 
+                            [(ngModel)]="data().categoryId" 
+                            name="categoryId" 
+                            [required]="true" 
+                            [loading]="categoryLoading()" 
+                            language="tr"
+                            placeholder="Kategori Seçiniz"
+                            (ngModelChange)="setCategoryName()">
+                        </flexi-select>
                     </div>
 
-                    <div class="form-group mt-2">
-                        <label for="imageUrl">Ürün Resmi</label>
-                        <input type="text" id="imageUrl" class="form-control" placeholder="Ürün Resmini Giriniz" ngModel name="imageUrl">
+                    <div class="form-group mb-3">
+                        <label for="name">Ürün Adı</label>
+                        <input type="text" id="name" name="name" class="form-control" 
+                               [(ngModel)]="data().name" required placeholder="Ürün adını giriniz">
                     </div>
 
-                        <div class="form-group mt-2">
-                        <label for="unit">Birim Fiyatı</label>
-                        <input type="text" 
-                        id="unit"
-                         class="form-control" 
-                         placeholder="Ürün Birimini Giriniz" 
-                         ngModel name="unit" 
-                         mask="separator.2"
-                         thousandSeparator=".">
+                    <div class="form-group mb-3">
+                        <label for="imageUrl">Ürün Resmi (URL)</label>
+                        <input type="text" id="imageUrl" name="imageUrl" class="form-control" 
+                               [(ngModel)]="data().imageUrl" required placeholder="https://...">
                     </div>
 
-                       <div class="form-group mt-2">
-                        <label for="stock">Stok Adedi</label>
-                        <input type="text" id="stock" class="form-control" placeholder="Ürün Stok Adedini Giriniz" ngModel name="stock">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="form-group mb-3">
+                                <label for="unit">Birim Fiyatı</label>
+                                <input type="text" id="unit" name="price" class="form-control" 
+                                       [(ngModel)]="data().price" mask="separator.2" 
+                                       thousandSeparator="." required>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-group mb-3">
+                                <label for="stock">Stok Adedi</label>
+                                <input type="number" id="stock" name="stock" class="form-control" 
+                                       [(ngModel)]="data().stock" required min="0">
+                            </div>
+                        </div>
                     </div>
 
-                        <div class="form-group mt-2 d-flex justify-content-end" >
-                       <button class="btn btn-primary">Kaydet</button>
+                    <div class="form-group mt-3 d-flex justify-content-end">
+                        <button type="submit" class="btn btn-primary px-4" [disabled]="!form.valid">
+                            {{btnName()}}
+                        </button>
                     </div>
-
                 </form>
             </div>
         </div>
