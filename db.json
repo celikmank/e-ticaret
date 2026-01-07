@@ -1,29 +1,341 @@
 {
   "products": [
     {
+      "id": "1",
+      "name": "iPhone 15 Pro Max 256GB",
+      "price": 54999,
+      "description": "A17 Pro çip, Titanyum tasarım, 6.7 inç Super Retina XDR ekran",
+      "categoryId": "1",
+      "categoryName": "Elektronik",
+      "imageUrl": "https://images.unsplash.com/photo-1696446702400-96110968fddf?w=400&h=500&fit=crop",
+      "stock": 15,
+      "rating": 4.9
+    },
+    {
+      "id": "2",
+      "name": "Samsung Galaxy S24 Ultra",
+      "price": 49999,
+      "description": "Snapdragon 8 Gen 3, 200MP kamera, S Pen desteği",
+      "categoryId": "1",
+      "categoryName": "Elektronik",
+      "imageUrl": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=400&h=500&fit=crop",
+      "stock": 22,
+      "rating": 4.8
+    },
+    {
+      "id": "3",
+      "name": "MacBook Pro 14 M3 Pro",
+      "price": 79999,
+      "description": "M3 Pro çip, 18GB RAM, 512GB SSD, Liquid Retina XDR ekran",
+      "categoryId": "1",
+      "categoryName": "Elektronik",
+      "imageUrl": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400&h=500&fit=crop",
+      "stock": 8,
+      "rating": 5.0
+    },
+    {
       "id": "4",
-      "name": "Akıllı Saat v2 Pro",
-      "price": 3800,
-      "description": "Nabız ölçer, GPS ve suya dayanıklı akıllı saat.",
+      "name": "Sony WH-1000XM5 Kulaklık",
+      "price": 8999,
+      "description": "Aktif gürültü engelleme, 30 saat pil ömrü, premium ses kalitesi",
+      "categoryId": "1",
+      "categoryName": "Elektronik",
+      "imageUrl": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=400&h=500&fit=crop",
+      "stock": 35,
+      "rating": 4.7
+    },
+    {
+      "id": "5",
+      "name": "iPad Air 11 M2",
+      "price": 24999,
+      "description": "M2 çip, 128GB, Liquid Retina ekran, Apple Pencil Pro desteği",
+      "categoryId": "1",
+      "categoryName": "Elektronik",
+      "imageUrl": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=400&h=500&fit=crop",
+      "stock": 18,
+      "rating": 4.6
+    },
+    {
+      "id": "6",
+      "name": "Nike Air Max 270",
+      "price": 3499,
+      "description": "Erkek spor ayakkabı, Air Max görünür hava yastığı, mesh üst",
       "categoryId": "2",
       "categoryName": "Giyim",
-      "imageUrl": "https://picsum.photos/200/300?random=4",
+      "imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=500&fit=crop",
+      "stock": 42,
+      "rating": 4.5
+    },
+    {
+      "id": "7",
+      "name": "Levi's 501 Original Kot Pantolon",
+      "price": 1899,
+      "description": "Klasik düz kesim, %100 pamuk, stonewash efekti",
+      "categoryId": "2",
+      "categoryName": "Giyim",
+      "imageUrl": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&h=500&fit=crop",
+      "stock": 56,
+      "rating": 4.4
+    },
+    {
+      "id": "8",
+      "name": "Zara Oversize Bomber Ceket",
+      "price": 1299,
+      "description": "Unisex bomber ceket, su itici kumaş, fermuarlı cepler",
+      "categoryId": "2",
+      "categoryName": "Giyim",
+      "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&h=500&fit=crop",
+      "stock": 28,
+      "rating": 4.3
+    },
+    {
+      "id": "9",
+      "name": "Adidas Originals Trefoil Hoodie",
+      "price": 1599,
+      "description": "Kapüşonlu sweatshirt, kanguru cep, pamuklu kumaş",
+      "categoryId": "2",
+      "categoryName": "Giyim",
+      "imageUrl": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400&h=500&fit=crop",
+      "stock": 64,
+      "rating": 4.6
+    },
+    {
+      "id": "10",
+      "name": "H&M Basic Pamuklu T-shirt",
+      "price": 299,
+      "description": "Erkek basic t-shirt, %100 organik pamuk, slim fit",
+      "categoryId": "2",
+      "categoryName": "Giyim",
+      "imageUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=500&fit=crop",
+      "stock": 120,
+      "rating": 4.2
+    },
+    {
+      "id": "11",
+      "name": "Apple Watch Series 9 GPS 45mm",
+      "price": 14999,
+      "description": "S9 çip, Always-On Retina ekran, EKG ve kan oksijeni sensörü",
+      "categoryId": "3",
+      "categoryName": "Aksesuar",
+      "imageUrl": "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=400&h=500&fit=crop",
+      "stock": 24,
+      "rating": 4.8
+    },
+    {
+      "id": "12",
+      "name": "Ray-Ban Wayfarer Güneş Gözlüğü",
+      "price": 2499,
+      "description": "Klasik Wayfarer tasarım, UV400 koruma, polarize cam",
+      "categoryId": "3",
+      "categoryName": "Aksesuar",
+      "imageUrl": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=400&h=500&fit=crop",
+      "stock": 38,
+      "rating": 4.7
+    },
+    {
+      "id": "13",
+      "name": "Fossil Gen 6 Akıllı Saat",
+      "price": 6999,
+      "description": "Wear OS, kalp atış takibi, hızlı şarj, 300+ saat kadranı",
+      "categoryId": "3",
+      "categoryName": "Aksesuar",
+      "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=500&fit=crop",
+      "stock": 19,
+      "rating": 4.4
+    },
+    {
+      "id": "14",
+      "name": "Michael Kors Jet Set Çanta",
+      "price": 8499,
+      "description": "Kadın omuz çantası, saffiano deri, altın rengi detaylar",
+      "categoryId": "3",
+      "categoryName": "Aksesuar",
+      "imageUrl": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400&h=500&fit=crop",
+      "stock": 14,
+      "rating": 4.6
+    },
+    {
+      "id": "15",
+      "name": "Tommy Hilfiger Deri Kemer",
+      "price": 899,
+      "description": "Erkek deri kemer, %100 hakiki deri, metal tokası",
+      "categoryId": "3",
+      "categoryName": "Aksesuar",
+      "imageUrl": "https://images.unsplash.com/photo-1624222247344-52e0d8e20ff7?w=400&h=500&fit=crop",
+      "stock": 45,
+      "rating": 4.3
+    },
+    {
+      "id": "16",
+      "name": "IKEA BILLY Kitaplık",
+      "price": 1299,
+      "description": "Beyaz, 80x28x202 cm, ayarlanabilir raflar, modern tasarım",
+      "categoryId": "4",
+      "categoryName": "Ev & Yaşam",
+      "imageUrl": "https://images.unsplash.com/photo-1594620302200-9a762244a156?w=400&h=500&fit=crop",
+      "stock": 32,
+      "rating": 4.5
+    },
+    {
+      "id": "17",
+      "name": "Tefal Actifry Fritöz",
+      "price": 3999,
+      "description": "1.2 kg kapasite, %99 daha az yağ, otomatik karıştırma sistemi",
+      "categoryId": "4",
+      "categoryName": "Ev & Yaşam",
+      "imageUrl": "https://images.unsplash.com/photo-1585515320310-259814833e62?w=400&h=500&fit=crop",
+      "stock": 21,
+      "rating": 4.6
+    },
+    {
+      "id": "18",
+      "name": "Philips Hue Akıllı Ampul Seti",
+      "price": 2499,
+      "description": "3'lü set, 16 milyon renk, WiFi kontrolü, ses asistanı desteği",
+      "categoryId": "4",
+      "categoryName": "Ev & Yaşam",
+      "imageUrl": "https://images.unsplash.com/photo-1550985616-10810253b84d?w=400&h=500&fit=crop",
+      "stock": 47,
+      "rating": 4.7
+    },
+    {
+      "id": "19",
+      "name": "Dyson V15 Detect Süpürge",
+      "price": 18999,
+      "description": "Kablosuz, lazer toz tespiti, LCD ekran, 60 dakika çalışma",
+      "categoryId": "4",
+      "categoryName": "Ev & Yaşam",
+      "imageUrl": "https://images.unsplash.com/photo-1558317374-067fb5f30001?w=400&h=500&fit=crop",
+      "stock": 9,
+      "rating": 4.9
+    },
+    {
+      "id": "20",
+      "name": "Nespresso Vertuo Next Kahve Makinesi",
+      "price": 4299,
+      "description": "Kapsüllü kahve makinesi, 5 fincan boyutu, geri dönüştürülebilir",
+      "categoryId": "4",
+      "categoryName": "Ev & Yaşam",
+      "imageUrl": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=400&h=500&fit=crop",
+      "stock": 26,
+      "rating": 4.5
+    },
+    {
+      "id": "21",
+      "name": "PlayStation 5 Slim",
+      "price": 19999,
+      "description": "1TB SSD, DualSense controller, 4K HDR Gaming",
+      "categoryId": "5",
+      "categoryName": "Oyun & Hobi",
+      "imageUrl": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=400&h=500&fit=crop",
+      "stock": 12,
+      "rating": 4.9
+    },
+    {
+      "id": "22",
+      "name": "Xbox Series X",
+      "price": 18999,
+      "description": "12 teraflops, 1TB NVMe SSD, 4K 120fps, Game Pass uyumlu",
+      "categoryId": "5",
+      "categoryName": "Oyun & Hobi",
+      "imageUrl": "https://images.unsplash.com/photo-1621259182978-fbf93132d53d?w=400&h=500&fit=crop",
+      "stock": 16,
+      "rating": 4.8
+    },
+    {
+      "id": "23",
+      "name": "Nintendo Switch OLED",
+      "price": 11999,
+      "description": "7 inç OLED ekran, gelişmiş ses, 64GB dahili hafıza",
+      "categoryId": "5",
+      "categoryName": "Oyun & Hobi",
+      "imageUrl": "https://images.unsplash.com/photo-1578303512597-81e6cc155b3e?w=400&h=500&fit=crop",
+      "stock": 28,
+      "rating": 4.7
+    },
+    {
+      "id": "24",
+      "name": "LEGO Star Wars Millennium Falcon",
+      "price": 5999,
+      "description": "7541 parça, koleksiyonluk set, detaylı iç mekan",
+      "categoryId": "5",
+      "categoryName": "Oyun & Hobi",
+      "imageUrl": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=400&h=500&fit=crop",
+      "stock": 8,
+      "rating": 5.0
+    },
+    {
+      "id": "25",
+      "name": "DJI Mini 3 Pro Drone",
+      "price": 16999,
+      "description": "4K HDR video, 34 dakika uçuş, engel algılama sistemi",
+      "categoryId": "5",
+      "categoryName": "Oyun & Hobi",
+      "imageUrl": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=400&h=500&fit=crop",
+      "stock": 11,
+      "rating": 4.8
+    },
+    {
+      "id": "26",
+      "name": "Canon EOS R6 Mark II",
+      "price": 89999,
+      "description": "24.2MP full-frame, 4K 60p video, dual pixel AF II",
+      "categoryId": "1",
+      "categoryName": "Elektronik",
+      "imageUrl": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=400&h=500&fit=crop",
       "stock": 5,
       "rating": 4.9
     },
     {
-      "id": "5",
-      "name": "Su Geçirmez Sırt Çantası",
-      "price": 750,
-      "description": "15.6 inç laptop uyumlu su geçirmez çanta.",
-      "categoryId": "3",
-      "categoryName": "Aksesuar",
-      "imageUrl": "https://picsum.photos/200/300?random=5",
-      "stock": 0,
-      "rating": 3.8
+      "id": "27",
+      "name": "Samsung 55 Neo QLED 8K TV",
+      "price": 44999,
+      "description": "7680x4320 çözünürlük, Neural Quantum işlemci, Object Tracking Sound",
+      "categoryId": "1",
+      "categoryName": "Elektronik",
+      "imageUrl": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=400&h=500&fit=crop",
+      "stock": 7,
+      "rating": 4.8
+    },
+    {
+      "id": "28",
+      "name": "Bose SoundLink Revolve+",
+      "price": 6999,
+      "description": "360 derece ses, 16 saat pil, su geçirmez, derin bas",
+      "categoryId": "1",
+      "categoryName": "Elektronik",
+      "imageUrl": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400&h=500&fit=crop",
+      "stock": 33,
+      "rating": 4.7
+    },
+    {
+      "id": "29",
+      "name": "LG UltraGear 27 Gaming Monitör",
+      "price": 9999,
+      "description": "165Hz, 1ms, QHD IPS, G-Sync uyumlu, HDR10",
+      "categoryId": "1",
+      "categoryName": "Elektronik",
+      "imageUrl": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=400&h=500&fit=crop",
+      "stock": 18,
+      "rating": 4.6
+    },
+    {
+      "id": "30",
+      "name": "Logitech MX Master 3S Mouse",
+      "price": 2499,
+      "description": "Sessiz tıklama, 8K DPI, çoklu cihaz, USB-C şarj",
+      "categoryId": "1",
+      "categoryName": "Elektronik",
+      "imageUrl": "https://images.unsplash.com/photo-1527814050087-3793815479db?w=400&h=500&fit=crop",
+      "stock": 52,
+      "rating": 4.8
     }
   ],
   "categories": [
+    {
+      "id": "1",
+      "name": "Elektronik"
+    },
     {
       "id": "2",
       "name": "Giyim"
@@ -31,6 +343,14 @@
     {
       "id": "3",
       "name": "Aksesuar"
+    },
+    {
+      "id": "4",
+      "name": "Ev & Yaşam"
+    },
+    {
+      "id": "5",
+      "name": "Oyun & Hobi"
     }
   ],
   "users": [

@@ -1,15 +1,39 @@
 <section class="products">
   <div class="container">
     <h2 class="section-title">Öne Çıkan Ürünler</h2>
-    <div class="products-grid">
-      @for (val of data(); track val.id) {
-      <div class="product-card">
-        <img [src]="val.imageUrl" [alt]="val.name">
-        <h3>{{val.name}}</h3>
-        <p class="price">{{val.price | trCurrency:'₺':false}}</p>
-        <button class="add-to-cart">Sepete Ekle</button>
-      </div>
+
+    <div class="products-grid" 
+         infiniteScroll 
+         [infiniteScrollDistance]="2" 
+         [infiniteScrollThrottle]="50"
+         (scrolled)="onScroll()">
+      
+      @for (val of dataSignal(); track val.id) {
+        <div class="product-card">
+          <div class="product-image-wrapper">
+            <img [src]="val.imageUrl" [alt]="val.name">
+          </div>
+          <h3>{{val.name}}</h3>
+          <p class="price">{{val.price | trCurrency:'₺':false}}</p>
+          <button class="add-to-cart">Sepete Ekle</button>
+        </div>
       }
     </div>
+
+    @if (result.isLoading()) {
+      <div class="text-center my-4 w-100">
+        <div class="spinner-border text-danger" role="status">
+          <span class="visually-hidden">Yükleniyor...</span>
+        </div>
+        <p class="text-muted mt-2">Daha fazla ürün yükleniyor...</p>
+      </div>
+    }
+
+    @if (!result.isLoading() && result.value()?.length === 0 && dataSignal().length > 0) {
+      <div class="text-center my-4 text-muted">
+        <hr>
+        <p>Tüm ürünleri gördünüz.</p>
+      </div>
+    }
   </div>
 </section>
