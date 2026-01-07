@@ -91,6 +91,8 @@ export default class ProductCreate {
     save(form: NgForm) {
         if (!form.valid) return;
 
+        this.setCategoryName();
+
         if (!this.id()) {
             // Yeni ürün için benzersiz ID oluştur
             const newId = Date.now().toString();

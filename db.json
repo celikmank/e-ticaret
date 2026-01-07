@@ -355,7 +355,7 @@
       "description": "Sessiz tıklama, 8K DPI, çoklu cihaz, USB-C şarj",
       "categoryId": "1",
       "categoryName": "Elektronik",
-      "categoryUrl": "/category/elektronik",
+      "categoryUrl": "elektronik",
       "imageUrl": "https://images.unsplash.com/photo-1527814050087-3793815479db?w=400&h=500&fit=crop",
       "stock": 52,
       "rating": 4.8
