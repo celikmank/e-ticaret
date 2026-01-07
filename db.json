@@ -7,6 +7,7 @@
       "description": "A17 Pro çip, Titanyum tasarım, 6.7 inç Super Retina XDR ekran",
       "categoryId": "1",
       "categoryName": "Elektronik",
+      "categoryUrl": "elektronik",
       "imageUrl": "https://images.unsplash.com/photo-1696446702400-96110968fddf?w=400&h=500&fit=crop",
       "stock": 15,
       "rating": 4.9
@@ -18,6 +19,7 @@
       "description": "Snapdragon 8 Gen 3, 200MP kamera, S Pen desteği",
       "categoryId": "1",
       "categoryName": "Elektronik",
+      "categoryUrl": "elektronik",
       "imageUrl": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=400&h=500&fit=crop",
       "stock": 22,
       "rating": 4.8
@@ -29,6 +31,7 @@
       "description": "M3 Pro çip, 18GB RAM, 512GB SSD, Liquid Retina XDR ekran",
       "categoryId": "1",
       "categoryName": "Elektronik",
+      "categoryUrl": "elektronik",
       "imageUrl": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400&h=500&fit=crop",
       "stock": 8,
       "rating": 5.0
@@ -40,6 +43,7 @@
       "description": "Aktif gürültü engelleme, 30 saat pil ömrü, premium ses kalitesi",
       "categoryId": "1",
       "categoryName": "Elektronik",
+      "categoryUrl": "elektronik",
       "imageUrl": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=400&h=500&fit=crop",
       "stock": 35,
       "rating": 4.7
@@ -51,6 +55,7 @@
       "description": "M2 çip, 128GB, Liquid Retina ekran, Apple Pencil Pro desteği",
       "categoryId": "1",
       "categoryName": "Elektronik",
+      "categoryUrl": "elektronik",
       "imageUrl": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=400&h=500&fit=crop",
       "stock": 18,
       "rating": 4.6
@@ -62,6 +67,7 @@
       "description": "Erkek spor ayakkabı, Air Max görünür hava yastığı, mesh üst",
       "categoryId": "2",
       "categoryName": "Giyim",
+      "categoryUrl": "giyim",
       "imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=500&fit=crop",
       "stock": 42,
       "rating": 4.5
@@ -73,6 +79,7 @@
       "description": "Klasik düz kesim, %100 pamuk, stonewash efekti",
       "categoryId": "2",
       "categoryName": "Giyim",
+      "categoryUrl": "giyim",
       "imageUrl": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&h=500&fit=crop",
       "stock": 56,
       "rating": 4.4
@@ -84,6 +91,7 @@
       "description": "Unisex bomber ceket, su itici kumaş, fermuarlı cepler",
       "categoryId": "2",
       "categoryName": "Giyim",
+      "categoryUrl": "giyim",
       "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&h=500&fit=crop",
       "stock": 28,
       "rating": 4.3
@@ -95,6 +103,7 @@
       "description": "Kapüşonlu sweatshirt, kanguru cep, pamuklu kumaş",
       "categoryId": "2",
       "categoryName": "Giyim",
+      "categoryUrl": "giyim",
       "imageUrl": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400&h=500&fit=crop",
       "stock": 64,
       "rating": 4.6
@@ -106,6 +115,7 @@
       "description": "Erkek basic t-shirt, %100 organik pamuk, slim fit",
       "categoryId": "2",
       "categoryName": "Giyim",
+      "categoryUrl": "giyim",
       "imageUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=500&fit=crop",
       "stock": 120,
       "rating": 4.2
@@ -117,6 +127,7 @@
       "description": "S9 çip, Always-On Retina ekran, EKG ve kan oksijeni sensörü",
       "categoryId": "3",
       "categoryName": "Aksesuar",
+      "categoryUrl": "aksesuar",
       "imageUrl": "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=400&h=500&fit=crop",
       "stock": 24,
       "rating": 4.8
@@ -128,6 +139,7 @@
       "description": "Klasik Wayfarer tasarım, UV400 koruma, polarize cam",
       "categoryId": "3",
       "categoryName": "Aksesuar",
+      "categoryUrl": "aksesuar",
       "imageUrl": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=400&h=500&fit=crop",
       "stock": 38,
       "rating": 4.7
@@ -139,6 +151,7 @@
       "description": "Wear OS, kalp atış takibi, hızlı şarj, 300+ saat kadranı",
       "categoryId": "3",
       "categoryName": "Aksesuar",
+      "categoryUrl": "aksesuar",
       "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=500&fit=crop",
       "stock": 19,
       "rating": 4.4
@@ -150,6 +163,7 @@
       "description": "Kadın omuz çantası, saffiano deri, altın rengi detaylar",
       "categoryId": "3",
       "categoryName": "Aksesuar",
+      "categoryUrl": "aksesuar",
       "imageUrl": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400&h=500&fit=crop",
       "stock": 14,
       "rating": 4.6
@@ -161,6 +175,7 @@
       "description": "Erkek deri kemer, %100 hakiki deri, metal tokası",
       "categoryId": "3",
       "categoryName": "Aksesuar",
+      "categoryUrl": "aksesuar",
       "imageUrl": "https://images.unsplash.com/photo-1624222247344-52e0d8e20ff7?w=400&h=500&fit=crop",
       "stock": 45,
       "rating": 4.3
@@ -172,6 +187,7 @@
       "description": "Beyaz, 80x28x202 cm, ayarlanabilir raflar, modern tasarım",
       "categoryId": "4",
       "categoryName": "Ev & Yaşam",
+      "categoryUrl": "ev-yaşam",
       "imageUrl": "https://images.unsplash.com/photo-1594620302200-9a762244a156?w=400&h=500&fit=crop",
       "stock": 32,
       "rating": 4.5
@@ -183,6 +199,7 @@
       "description": "1.2 kg kapasite, %99 daha az yağ, otomatik karıştırma sistemi",
       "categoryId": "4",
       "categoryName": "Ev & Yaşam",
+      "categoryUrl": "ev-yaşam",
       "imageUrl": "https://images.unsplash.com/photo-1585515320310-259814833e62?w=400&h=500&fit=crop",
       "stock": 21,
       "rating": 4.6
@@ -194,6 +211,7 @@
       "description": "3'lü set, 16 milyon renk, WiFi kontrolü, ses asistanı desteği",
       "categoryId": "4",
       "categoryName": "Ev & Yaşam",
+      "categoryUrl": "ev-yaşam",
       "imageUrl": "https://images.unsplash.com/photo-1550985616-10810253b84d?w=400&h=500&fit=crop",
       "stock": 47,
       "rating": 4.7
@@ -205,6 +223,7 @@
       "description": "Kablosuz, lazer toz tespiti, LCD ekran, 60 dakika çalışma",
       "categoryId": "4",
       "categoryName": "Ev & Yaşam",
+      "categoryUrl": "ev-yaşam",
       "imageUrl": "https://images.unsplash.com/photo-1558317374-067fb5f30001?w=400&h=500&fit=crop",
       "stock": 9,
       "rating": 4.9
@@ -216,6 +235,7 @@
       "description": "Kapsüllü kahve makinesi, 5 fincan boyutu, geri dönüştürülebilir",
       "categoryId": "4",
       "categoryName": "Ev & Yaşam",
+      "categoryUrl": "ev-yaşam",
       "imageUrl": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=400&h=500&fit=crop",
       "stock": 26,
       "rating": 4.5
@@ -227,6 +247,7 @@
       "description": "1TB SSD, DualSense controller, 4K HDR Gaming",
       "categoryId": "5",
       "categoryName": "Oyun & Hobi",
+      "categoryUrl": "oyun-hobi",
       "imageUrl": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=400&h=500&fit=crop",
       "stock": 12,
       "rating": 4.9
@@ -238,6 +259,7 @@
       "description": "12 teraflops, 1TB NVMe SSD, 4K 120fps, Game Pass uyumlu",
       "categoryId": "5",
       "categoryName": "Oyun & Hobi",
+      "categoryUrl": "oyun-hobi",
       "imageUrl": "https://images.unsplash.com/photo-1621259182978-fbf93132d53d?w=400&h=500&fit=crop",
       "stock": 16,
       "rating": 4.8
@@ -249,6 +271,7 @@
       "description": "7 inç OLED ekran, gelişmiş ses, 64GB dahili hafıza",
       "categoryId": "5",
       "categoryName": "Oyun & Hobi",
+      "categoryUrl": "oyun-hobi",
       "imageUrl": "https://images.unsplash.com/photo-1578303512597-81e6cc155b3e?w=400&h=500&fit=crop",
       "stock": 28,
       "rating": 4.7
@@ -260,6 +283,7 @@
       "description": "7541 parça, koleksiyonluk set, detaylı iç mekan",
       "categoryId": "5",
       "categoryName": "Oyun & Hobi",
+      "categoryUrl": "oyun-hobi",
       "imageUrl": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=400&h=500&fit=crop",
       "stock": 8,
       "rating": 5.0
@@ -271,6 +295,7 @@
       "description": "4K HDR video, 34 dakika uçuş, engel algılama sistemi",
       "categoryId": "5",
       "categoryName": "Oyun & Hobi",
+      "categoryUrl": "oyun-hobi",
       "imageUrl": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=400&h=500&fit=crop",
       "stock": 11,
       "rating": 4.8
@@ -282,6 +307,7 @@
       "description": "24.2MP full-frame, 4K 60p video, dual pixel AF II",
       "categoryId": "1",
       "categoryName": "Elektronik",
+      "categoryUrl": "elektronik",
       "imageUrl": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=400&h=500&fit=crop",
       "stock": 5,
       "rating": 4.9
@@ -293,6 +319,7 @@
       "description": "7680x4320 çözünürlük, Neural Quantum işlemci, Object Tracking Sound",
       "categoryId": "1",
       "categoryName": "Elektronik",
+      "categoryUrl": "elektronik",
       "imageUrl": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=400&h=500&fit=crop",
       "stock": 7,
       "rating": 4.8
@@ -304,6 +331,7 @@
       "description": "360 derece ses, 16 saat pil, su geçirmez, derin bas",
       "categoryId": "1",
       "categoryName": "Elektronik",
+      "categoryUrl": "elektronik",
       "imageUrl": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400&h=500&fit=crop",
       "stock": 33,
       "rating": 4.7
@@ -315,6 +343,7 @@
       "description": "165Hz, 1ms, QHD IPS, G-Sync uyumlu, HDR10",
       "categoryId": "1",
       "categoryName": "Elektronik",
+      "categoryUrl": "elektronik",
       "imageUrl": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=400&h=500&fit=crop",
       "stock": 18,
       "rating": 4.6
@@ -326,6 +355,7 @@
       "description": "Sessiz tıklama, 8K DPI, çoklu cihaz, USB-C şarj",
       "categoryId": "1",
       "categoryName": "Elektronik",
+      "categoryUrl": "/category/elektronik",
       "imageUrl": "https://images.unsplash.com/photo-1527814050087-3793815479db?w=400&h=500&fit=crop",
       "stock": 52,
       "rating": 4.8
@@ -334,23 +364,28 @@
   "categories": [
     {
       "id": "1",
-      "name": "Elektronik"
+      "name": "Elektronik",
+      "url": "elektronik"
     },
     {
       "id": "2",
-      "name": "Giyim"
+      "name": "Giyim",
+      "url": "giyim"
     },
     {
       "id": "3",
-      "name": "Aksesuar"
+      "name": "Aksesuar",
+      "url": "aksesuar"
     },
     {
       "id": "4",
-      "name": "Ev & Yaşam"
+      "name": "Ev & Yaşam",
+      "url": "ev-yaşam"
     },
     {
       "id": "5",
-      "name": "Oyun & Hobi"
+      "name": "Oyun & Hobi",
+      "url": "oyun-hobi"
     }
   ],
   "users": [

@@ -6,6 +6,7 @@ export interface ProductModel {
     imageUrl: string;
     categoryId: string;
     categoryName: string;
+    categoryUrl: string;
 }
 
 export const initialProduct: ProductModel = {
@@ -16,4 +17,5 @@ export const initialProduct: ProductModel = {
     imageUrl: '',
     categoryId: '',
     categoryName: '',
+    categoryUrl: ''
 };   

@@ -119,7 +119,7 @@ export default class ProductCreate {
     setCategoryName() {
         const id = this.data().categoryId;
         const category = this.categories().find(c => c.id === id);
-        this.data.update((prev) => ({ ...prev, categoryName: category?.name ?? "" }));
+        this.data.update((prev) => ({ ...prev, categoryName: category?.name ?? "", categoryUrl: category?.url ?? "" }));
     }
 
 

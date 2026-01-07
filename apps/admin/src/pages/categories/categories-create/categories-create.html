@@ -1,10 +1,7 @@
-<app-blank
-  pageTitle="Kategori Ekle"
-  [breadcrumbs]="[
+<app-blank pageTitle="Kategori Ekle" [breadcrumbs]="[
     {title: 'Kategoriler', url: '/categories', icon: 'category'},
     {title: 'Ekle', url: '/categories/create', icon: 'add'},
-    ]"
-/>
+    ]" />
 
 <div class="row">
   <div class="col-md-4 col-12">
@@ -18,17 +15,16 @@
           <div class="form-group">
             <label for="categoryName">Kategori Adı</label>
 
-            <input
-              id="categoryName"
-              type="text"
-              class="form-control"
-              [(ngModel)]="data().name"
-              name="name"
-              required
-              minlength="2"
-            />
+            <input id="categoryName" type="text" class="form-control" [(ngModel)]="data().name" name="name" required
+              minlength="2" />
           </div>
 
+          <div class="form-group">
+            <label for="categoryUrl">Kategori URL</label>
+
+            <input id="categoryUrl" type="text" class="form-control" [(ngModel)]="data().url" name="url" required
+              minlength="2" />
+          </div>
           <div class="form-group mt-2 d-flex justify-content-end">
             <button type="submit" class="btn btn-primary">{{btnName()}}</button>
           </div>
