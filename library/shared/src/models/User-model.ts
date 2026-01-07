@@ -4,7 +4,7 @@ export interface UserModel {
     firstName: string;
     lastName: string;
     fullName: string;
-    username: string;
+    userName: string;
     email: string;
     password?: string;
     isAdmin: boolean;
@@ -15,7 +15,7 @@ export const initialUser: UserModel = {
     firstName: '',
     lastName: '',
     fullName: '',
-    username: '',
+    userName: '',
     email: '',
     password: '',
     isAdmin: false,

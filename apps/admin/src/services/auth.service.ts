@@ -40,7 +40,7 @@ export class AuthService {
       if (!res.ok) return false;
       const data = await res.json();
       const users: UserModel[] = data.users ?? [];
-      const user = users.find(u => u.username === username && u.password === password) as UserModel | undefined;
+      const user = users.find(u => u.userName === username && u.password === password) as UserModel | undefined;
       if (!user) return false;
       this.login(user);
       if (remember) localStorage.setItem('rememberMe', 'true');
