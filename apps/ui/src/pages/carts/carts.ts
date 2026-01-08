@@ -4,11 +4,14 @@ import { Common } from '../../services/common';
 import { cartModel } from '@e-ticaret/shared/models/cart.model';
 import { TrCurrencyPipe } from 'tr-currency';
 import { FlexiToastService } from 'flexi-toast';
+import { RouterLink } from '@angular/router';
+import { CategoryModel } from '@e-ticaret/shared/models/Category.model';
 
 
 @Component({
     imports: [
         TrCurrencyPipe,
+        RouterLink
     ],
     templateUrl: './carts.html',
     encapsulation: ViewEncapsulation.None,

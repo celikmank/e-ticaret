@@ -31,7 +31,7 @@
                                 <button class="qty-btn plus" (click)="increment(val)">+</button>
                             </div>
                             <div class="item-price">
-                                <span class="price">{{(val.productPrice * (val.quantity ?? 1)) | trCurrency:'₺':false}}</span>
+                                {{(val.productPrice * val.quantity) | trCurrency:'₺':false}}
                             </div>
                         </div>
                     }
@@ -73,7 +73,7 @@
                             <button class="promo-btn">Uygula</button>
                         </div>
     
-                        <button class="checkout-btn">
+                        <button class="checkout-btn" routerLink="/payment">
                             <i class="fas fa-lock"></i>
                             Güvenli Ödeme
                         </button>

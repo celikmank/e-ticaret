@@ -85,22 +85,6 @@ body {
     transform: scale(1.1);
 }
 
-/* Basket count (badge) */
-.cart-count {
-    background-color: #dc3545;
-    color: white;
-    border-radius: 50%;
-    padding: 0.15rem 0.45rem;
-    font-size: 0.75rem;
-    position: absolute;
-    top: -8px;
-    right: -8px;
-    line-height: 1;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-}
-
 /* Hero Section */
 .hero {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -3099,8 +3083,9 @@ hr {
     .dropdown-menu::before {
         right: 45px;
     }
+}
 
-    .placeholder {
+.placeholder {
     display: inline-block;
     width: 100%;
     background-color: currentColor;
@@ -3118,4 +3103,20 @@ hr {
     }
 }
 
+.basket-count {
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    border: 0px solid;
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+    font-size: 10px;
+    padding: 0.5px;
+    min-width: 15px;
+    text-align: center;
+}
+
+.cursor{
+    cursor: pointer;
 }
