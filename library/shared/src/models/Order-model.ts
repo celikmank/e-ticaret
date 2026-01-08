@@ -2,6 +2,8 @@ import { cartModel } from "./cart.model";
 export interface OrderModel {
     id?: string;
     userId: string;
+    orderNumber:string;
+    date: Date;
     fullName: string;
     phoneNumber: string;
     city: string;
@@ -13,12 +15,14 @@ export interface OrderModel {
     cvv: number;
     installmentOptions: string;
     status:string;
-    baskets: cartModel[];
+    carts: cartModel[];
 }
 
 export const initialOrder: OrderModel = {
     userId: "",
     fullName: "",
+    orderNumber: "",
+    date: new Date(),
     phoneNumber: "",
     city: "",
     district: "",
@@ -28,6 +32,6 @@ export const initialOrder: OrderModel = {
     expiresDate: "",
     cvv: 0,
     installmentOptions: "",
-    status: "Onay Bekliyor",
-    baskets: []
+    status: "Hazırlanıyor",
+    carts: []
 }
